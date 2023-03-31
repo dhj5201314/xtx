@@ -1,0 +1,354 @@
+.xtx-body {
+    padding: 30px 0 85px;
+    background-color: #f6f6f6;
+}
+.xtx-body .wrapper {
+    display: flex;
+}
+.xtx-body .aside {
+    width: 227px;
+    /* 最小500像素，当内容超出，可以自动增加 */
+    height: 1500px;
+    margin-right: 18px;
+    /* background-color: pink; */
+    background-color: white;
+}
+.xtx-body .main {
+    flex: 1;
+    /* background-color: skyblue; */
+}
+.xtx-body .top-img {
+    width: 85px;
+    height: 85px;
+    margin: 47px 76px 14px 66px;
+}
+.xtx-body h3 {
+    font-size: 18px;
+    color: #333;
+    margin-left: 83px;
+}
+.xtx-body .yuanjiao {
+    width: 93px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 12px;
+    margin-left: 62px;
+    margin-bottom: 33px;
+   background-color: orange;
+   border-radius: 10px;
+       
+}
+.yuanjiao span {
+    font-size: 14px;
+    color: #f9f9f9;
+}
+.aside .zhanghu {
+    width: 227px;
+    min-height: 100px;
+    padding: 33px 100px 30px 53px;
+    border-top: 1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+    box-sizing: border-box;
+
+}
+.zhanghu dt {
+    margin-bottom: 22px;
+
+}
+.zhanghu dt a {
+    font-size: 18px;
+}
+.zhanghu dl {
+    margin-bottom: 20px;
+}
+.zhanghu dl a {
+    font-size: 14px;
+}
+.zhanghu dl:hover a {
+    color: #5cb99e;
+}
+.overvue {
+    display: flex;
+    /* justify-content: space-between; */
+    height: 132px;
+    margin-bottom: 18px;
+    padding: 20px 0;
+    background-color: white;
+}
+.overvue div {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.overvue div:first-child {
+    border-right: 1px solid #f4f4f4;
+}
+.overvue div a img {
+    width: 25px;
+    margin-bottom: 10px;
+}
+.overvue div span {
+    font-size: 25px;
+    color: #e05e30;
+}
+.overvue div p {
+    font-size: 16px;
+    color: #333;
+}
+.overvue div a:last-child img {
+    width: 18px;
+}
+.pannel {
+    padding: 20px 28px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.pannel .title {
+    display: flex;
+    height: 45px;
+    border-bottom: 1px solid #f4f4f4;
+    justify-content: space-between;
+} 
+.pannel .title h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+}
+.pannel .title a {
+    font-size: 16px;
+    margin-top: 8px;
+    color: #999;
+}
+
+.go-shoup li {
+    display: flex;
+    height: 137px;
+    margin-top: -1px;
+    margin-bottom: 20px;
+    border: 1px solid #f4f4f4;
+}
+.go-shoup li:last-child {
+    margin-bottom: 0px;
+}
+.go-shoup li .goods {
+    display: flex;
+    padding: 17px 0 14px 12px;
+    align-items: center;
+    flex: 1;
+    margin-right: 120px;
+}
+.go-shoup li .goods-pic {
+    width: 107px;
+    height: 107px;
+}
+.go-shoup li .goods-text {
+    width: 200px;
+}
+.go-shoup li .goods-text h5 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.go-shoup li .status {
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    width: 120px;
+}
+.go-shoup li .status p {
+    font-size: 14px;
+    margin-top: 55px;
+    color:#e05e30;
+}
+
+
+
+
+.go-shoup li .pay {
+    width: 200px;
+    /* text-align: center; */
+    color: #333;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+.go-shoup li .pay p:first-child {
+    font-size: 14px;
+    color: #9a2e1f;
+}
+
+
+
+.go-shoup li .action {
+    width: 180px;
+}
+.go-shoup li .common {
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.go-shoup li .action a:first-child {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #5eb69c;
+}
+.zhongbu {
+    margin-top: 20px;
+}
+.zhongbu .goods-l {
+  
+    padding: 31px 53px 35px 30px;
+}
+.qwe1 {
+    width: 171px;
+}
+.goods-l ul {
+    display: flex;
+    justify-content: space-between;
+}
+.qwe1 img {
+    margin-bottom: 23px;
+}
+.qwe1 p {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.qwe1 span {
+    font-size: 22px;
+    
+    color: #9a2e1f;
+}
+.qwe1 span i {
+    font-size: 17px;
+    color: #9a2e1f;
+}
+.box {
+    display: flex;
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: pink;
+    background-image: url(../uploads/bliss\(2\)\(1\).jpg);
+    ;
+    
+}
+
+.box .left {
+  margin-left: 400px;
+  margin-top: 300px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: orange;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.box .right {
+     margin-top: 300px;
+     margin-left: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: orange;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.button {
+   margin: 0 auto;
+    width: 1600px;
+    height: 500px;
+   
+}
+.htlp {
+    width: 100%;
+    display: flex;
+padding-left: 300px;
+}
+.htlp h3 {
+    margin-right: 400px;
+    font-size: 34px;
+}
+.htlp ul li {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 80px;
+    height: 40px;
+}
+.htlp ul li:first-child {
+    background-color:orange
+}
+.htlp ul li:hover {
+    background-color: orange
+}
+.heder {
+    width: 100%;
+    padding-left: 300px;
+    padding-top: 20px;
+    color: white;
+    background-color: #85b716;
+    font-size: 16px;
+}
+.heder p a {
+    color: white;
+}
+.heder p:last-child a:last-child {
+    
+    margin-left: 500px;
+}
+.heder input {
+    width: 800px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 5px solid yellow;
+}
+.a {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: yellow;
+}
+.fuwu {
+    width: 100%;
+    padding-left: 260px;
+    padding-top: 20px;
+    color: #000;
+   
+    font-size: 16px;
+}
+.fuwu h3 {
+    padding-bottom: 10px;
+}
+.imgbox {
+    width: 1000px;
+    height: 200px;
+}
+.imgbox img {
+    width: 90%;
+}
+.dibu {
+    width: 100%;
+    padding-left: 200px;
+    background-color: #f4f4f4;
+}
+
